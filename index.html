@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kosugi:regular&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rufina:regular&display=swap" rel="stylesheet" />
+
+
+    <title>SalsaLoca</title>
+</head>
+<body>
+    <div class="wrapper"  id="intro">
+        <header class="header">
+            <div class="header__banner">
+                <img src="img/banner/header.png" alt="">
+                <div class="header__all _container">
+                    
+                    <!-- <div class="header__banner_title">
+                        <p>ШКОЛА СОЦИАЛЬНЫХ ТАНЦЕВ <br> АЛЕКСЕЯ ОСИПОВА</p>
+                        <h2>SALSA LOCA</h2>
+                    </div> -->
+                </div>
+            </div> 
+            <div class="header__container _container">
+                <a href="#" class="header__logo"><img src="img/SL-logo.png" alt="SL"></a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#price" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Обучение</a>
+                            <ul class="sub-menu__list">
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Направления</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Стоимость</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Расписание</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#popup-window" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#schedule" class="menu__link">Контакты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Доп.услуги</a>
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Шоу-балет “Salsa Loca”</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Анонсы мероприятий</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Танцевальная практика</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Open Air Salsa Loca</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">5 School party</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__phone"><img src="img/header-phone.png" alt="h-phone"></a>
+            </div>
+        </header>
+        <main class="page">
+            <div class="page__container _container">
+                <div class="page__main">
+                    <div class="main__column">
+                        <h3 data-content="Salsa Loca" class="main__title">Salsa Loca</h3>
+                        <div class="main__subtitle">Танцевать - это просто, попробуй прямо сейчас!</div>
+                        <div id="btn" class="main__button button-main">
+                            НАЧАТЬ ТАНЦЕВАТЬ
+                        </div>
+                    </div>
+                    <div class="main__dancer">
+                        <img src="img/dancer.png" alt="">
+                    </div>
+                </div>
+                <div class="page__directions">
+                    <div class="directions title">
+                        <img src="img/line-title.png" alt="line-title">
+                        <h1>наши тацевальные направления</h1>
+                        <img src="img/line-title.png" alt="line-title">
+                    </div>
+                        <!----------------------slider------------------------------>
+                        <div class="swiper cardSwiper">
+                            <div class="swiper-wrapper">
+                                <div data-hash="slide1" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/Bachata 1.png" alt="">
+                                        <div class="swiper__text">Бачата</div>
+                                        <a href="" class="sliding-button">Узнать подробнее</a>
+                                    </div>
+                                    </div>
+                                <div data-hash="slide2" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/Kizomba 1.png" alt="">
+                                        <div class="swiper__text">Кизомба</div>
+                                        <a href="" class="sliding-button">Узнать подробнее</a>
+                                    </div>
+                                </div>
+                                <div data-hash="slide3" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/Salsa 1.png" alt="">
+                                        <div class="swiper__text">Сальса</div>
+                                        <a href="" class="sliding-button">Узнать подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!---------------------slider------------------------------>
+                </div>
+                <div class="page__about">
+                    <div class="page__ title">
+                        <img src="img/line-title.png" alt="line-title">
+                        <h1>о нас</h1>
+                        <img src="img/line-title.png" alt="line-title">
+                    </div>
+                    <div class="page__ stats">
+                        <div class="stats_column"> 
+                            <div class="stats_smoke">
+                                <div class="stats__round">
+                                    <div class="stats__content">1000+</div>
+                                </div>
+                            </div>
+                                <div class="stats__text">ДОВОЛЬНЫХ УЧЕНИКОВ</div>
+                        </div>
+                        <div class="stats_column"> 
+                            <div class="stats_smoke">
+                                <div class="stats__round">
+                                    <div class="stats__content">11</div>
+                                </div>
+                            </div>
+                                <div class="stats__text">УЧИМ ТАНЦЕВАТЬ ЛЕТ</div>
+                        </div>    
+                        <div class="stats_column"> 
+                            <div class="stats_smoke">
+                                <div class="stats__round">
+                                    <div class="stats__content">10</div>
+                                </div>
+                            </div>
+                                <div class="stats__text">КОЛИЧЕСТВО ИНТРУКТОРОВ</div>
+                        </div>        
+                    </div>
+                    <div class="page__about quote">
+                        <div class="quote__photo">
+                            <img src="img/osipov.png" alt="osipov">
+                        </div>
+                        <div class="quote__text">
+                            <div class="quote__title">АЛЕКСЕЙ ОСИПОВ</div>
+                            <div class="quote__subtitle">Основатель и руководитель</br> школы социальных танцев</br> SALSA LOCA </div>
+                            <div class="quote__citation">  “Есть короткие пути к счастью, и танец - один из них!”</div>
+                        </div>
+                    </div>
+                    <div class="page__about separator">
+                        <img src="img/separator.png" alt="separator">
+                    </div>
+                    <!---------------------slider2------------------------------>
+                    <div class="page__about about_slider" id="intro2">
+                        <div class="page__reviews slider">
+                            <div class="swiper teamSwiper">
+                                <div class="swiper-wrapper">
+                                    <div data-hash="slide11" class="swiper-slide">
+                                        <div class="slide-item">
+                                            <img src="../salsaloca/img/slide/lara 1.png" alt="">
+                                            <a href="" class="sliding-button">Лариса Перешибкина</a>
+                                        </div>
+                                        <div class="about-team__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore alias cumque beatae ullam eos repellat nesciunt.</div>
+                                    </div>
+                                    <div data-hash="slide22" class="swiper-slide">
+                                        <div class="slide-item">
+                                            <img src="../salsaloca/img/slide/tanya 11.png" alt="">
+                                            <a href="" class="sliding-button">Татьяна Ручко</a>
+                                        </div>
+                                        <div class="about-team__text">Инструктор со стажем 12 лет</div>
+                                        <div class="about-team__text">Специализируется на таких видах латино-американских танцев как Salsa, Rumba, Timba</div>
+                                    </div>
+                                    <div data-hash="slide33" class="swiper-slide">
+                                        <div class="slide-item">
+                                            <img src="../salsaloca/img/slide/kiril 1.png" alt="">
+                                            <a href="" class="sliding-button">Кирил Аксеновский</a>
+                                        </div>
+                                        <div class="about-team__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore alias cumque beatae ullam eos repellat nesciunt.</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------slider2------------------------------>
+                <div class="page__reviews" id="intro3">
+                    <div class="page__reviews title">
+                        <img src="img/line-title.png" alt="line-title">
+                        <h1>ОТЗЫВЫ НАШИХ УЧЕНИКОВ</h1>
+                        <img src="img/line-title.png" alt="line-title">
+                    </div>
+
+                    <!---------------------slider3------------------------------>
+                    <div class="swiper rewiev">
+                        <div class="swiper-wrapper rewiev">
+                            <div data-hash="slide111" class="swiper-slide">
+                                <div class="rewiev-item">
+                                    <div class="rewiev-icon">
+                                    </div>
+                                    <div>
+                                        <div class="review__author">Маша</div>
+                                        <hr>
+                                        <div class="review__text">"Класная школа, всю жизнь бы только сюда и ходила, бла-бла-бла"</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-hash="slide222" class="swiper-slide">
+                                <div class="rewiev-item">
+                                    <div class="rewiev-icon">
+                                    </div>
+                                    <div>
+                                        <div class="review__author">Маша</div>
+                                        <hr>
+                                        <div class="review__text">"Класная школа, всю жизнь бы только сюда и ходила, бла-бла-бла"</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-hash="slide333" class="swiper-slide">
+                                <div class="rewiev-item">
+                                    <div class="rewiev-icon">
+                                    </div>
+                                    <div>
+                                        <div class="review__author">Маша</div>
+                                        <hr>
+                                        <div class="review__text">"Класная школа, всю жизнь бы только сюда и ходила, бла-бла-бла"</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!---------------------slider3------------------------------>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__title title">
+                    <img src="img/line-title.png" alt="line-title">
+                    <h1>НАШИ КОНТАКТЫ</h1>
+                    <img src="img/line-title.png" alt="line-title">
+                </div>
+                <div class="footer__contacts">
+                    <div class="contacts">
+                        <ul class="fa-ul">
+                            <li class="fa-text"><i class="fa fa-map-marker"></i>г. Харьков, л. Плехановская, 4</li>
+                            <li class="fa-text"><i class="fa fa-map-marker"></i>г. Харьков, ул. Космическая, 20</li>
+                            <li class="fa-text"><i class="fa fa-envelope-o"></i><a href="#">osipov@gmail.com</a></li>
+                            <li class="fa-text"><i class="fa fa-phone"></i><a href="#">+38 050 123 45 67</a></li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <a href="#"><img class="img" src="img/ig-icon.png" alt="ig"></a>
+                        <a href="#"><img class="img" src="img/tg-icon.png" alt="tg"></a>
+                        <a href="#"><img class="img" src="img/fb-icon.png" alt="fb"></a>
+                    </div>
+                    <div class="form">
+                        <p>Остались вопросы?</p>
+                        <input class="input_footer" type="text" placeholder="Имя*"><br>
+                        <input class="input_footer" type="text" placeholder="Телефон*"><br>
+                        <input class="input_footer" type="text" placeholder="E-mail*"><br>
+                        <button class="button-form">Отправить</button>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41041.8563922406!2d36.21412563186937!3d49.99043415634379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a08c02482905%3A0xdf8a9a3e9d02e392!2z0YPQuy4g0J_Qu9C10YXQsNC90L7QstGB0LrQsNGPLCA0LCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDYxMDAw!5e0!3m2!1sru!2snl!4v1652892685534!5m2!1sru!2snl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+                <div class="footer__logo">
+                    <img src="img/wic-logo.png" alt="wic">
+                </div>
+        </footer>
+    </div>
+
+    <!-- POPUPS -->
+        <!-- Directions -->
+    <div id="popup-window" class="popup__directions directions-bachata">
+        
+            <div class="popup__directions_body">
+                <div class="popup__directions_content">
+                    <a href="#" class="popup__close"><img src="img/close.png" alt=""></a>
+                    <div class="popup__directions_container">
+                        <div class="popup__directions_title">
+                            БАЧАТА
+                        </div>
+                        <div class="popup__directions_descr">
+                            <div class="directions_descr descr-text">
+                                Бачата медленный и романтичный танец... Описание бачаты....
+                            </div>
+                            <div class="directions_descr descr-photo">
+                                <img src="img/popups/directions/popup-bachata.png" alt="bachata">
+                            </div>
+                        </div>
+                        <div class="popup__directions_tabs">
+                            <div class="directions__tab_button tab-button is-active" data-tab-name="tab-1">НАЧИНАЮЩИЙ УРОВЕНЬ</div>
+                            <div class="directions__tab_button tab-button" data-tab-name="tab-2">СРЕДНИЙ УРОВЕНЬ</div>
+                            <div class="directions__tab_button tab-button" data-tab-name="tab-3">ПРОДВИНУТЫЙ УРОВЕНЬ</div>
+                        </div>
+                        <div class="popup__directions_levels-body">
+                            <div class="direction__level tab-content tab-1 is-active">
+                                <div class="direction__level_title">
+                                    НАЧИНАЮЩИЙ УРОВЕНЬ
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Расписание занятий
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        пн/ср/пт  19:00
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Преподаватели курса
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        Алексей Осипов, Татьяна Ручко
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Стоимость абонемента
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        8 занятий - 1000 грн, разовое посещение - 200 грн
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="direction__level tab-content tab-2">
+                                <div class="direction__level_title">
+                                    СРЕДНИЙ УРОВЕНЬ
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Расписание занятий
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        вт/чт/сб  19:00
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Преподаватели курса
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        Алексей Осипов, Татьяна Ручко
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Стоимость абонемента
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        8 занятий - 1000 грн, разовое посещение - 200 грн
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="direction__level tab-content tab-3">
+                                <div class="direction__level_title">
+                                    ПРОДВИНУТЫЙ УРОВЕНЬ
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Расписание занятий
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        пн/ср/пт  19:00
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Преподаватели курса
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        Алексей Осипов, Татьяна Ручко
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Стоимость абонемента
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        8 занятий - 1000 грн, разовое посещение - 200 грн
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#popup" id="btn2" class="popup__directions_button">Записаться на пробный урок</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+<!--Trial lesson -->
+    <div id="popup" class="popup">
+        <div class="popup__body"> 
+            <div class="popup__content">
+                <a href="#" class="popup__close-2"><img src="img/close.png" alt=""></a>
+                <div class="popup__title">Чтобы записаться на пробное занятие заполните, пожалуйста, форму</div>
+                <input type="text" placeholder="Введите имя" class="popup__input input-name">
+                <input type="tel" placeholder="Введите телефон" class="popup__input input-tel">
+                <button class="popup__button button-popup-send">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schedule -->
+    <div id="schedule" class="popup__schedule">
+            
+        <div class="popup__schedule_body">
+            <div class="popup__schedule_content">
+                <a href="#" class="popup__close-3"><img src="img/close.png" alt=""></a>
+                <div class="popup__schedule_container">
+                    <div class="popup__schedule_tabs">
+                        <div class="tab-button is-active schedule__tab_button" data-tab-name="tab-1">Плехановская, 4а</div>
+                        <div class="tab-button schedule__tab_button" data-tab-name="tab-2">Космическая, 23</div>
+                    </div>
+                    <div class="popup__schedule_adress1">
+                        <div class="tab-content is-active schedule__adress tab-1">
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Понедельник
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Вторник
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Среда
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Четверг
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Пятница
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Суббота
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Воскресенье
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    информация
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content schedule__adress tab-2">
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Охренельник
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Хуерник
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Среда
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Четверг
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Пятница
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Суббота
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                            <div class="schedule__adress_row">
+                                <div class="schedule__adress_column-1">
+                                    Воскресенье
+                                </div>
+                                <div class="schedule__adress_column-2">
+                                    другая информация
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#popup" id="btn2" class="popup__schedule_button">Записаться на пробный урок</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Price -->
+    <div id="price" class="price">
+        <div class="price__body"> 
+            <div class="price__content">
+                <a href="#" class="popup__close-4"><img src="img/close.png" alt=""></a>
+                <div class="tab-content is-active direction__level tab-1">
+                    <div class="direction__level_title">
+                        АБОНЕМЕНТ НА МЕСЯЦ
+                    </div>
+                    <div class="popup__directions_levels-body_">
+                        <div class="direction__level_row">
+                            <div class="direction__level_column-1">
+                                2 часа в неделю
+                            </div>
+                            <div class="direction__level_column-2">
+                                1000 грн
+                            </div>
+                        </div>
+                        <div class="direction__level_row">
+                            <div class="direction__level_column-1">
+                                3 часа в неделю
+                            </div>
+                            <div class="direction__level_column-2">
+                                1000 грн
+                            </div>
+                        </div>
+                        <div class="direction__level_row">
+                            <div class="direction__level_column-1">
+                                Безлимит
+                            </div>
+                            <div class="direction__level_column-2">
+                                1000 грн
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="direction__level_title">
+                    РАЗОВОЕ ПОСЕЩЕНИЕ
+                </div>
+                <div class="popup__directions_levels-body_">
+                    <div class="direction__level_row">
+                        <div class="direction__level_column-1">
+                            1 посещение группового занятия 1 час
+                        </div>
+                        <div class="direction__level_column-2">
+                            300 грн
+                        </div>
+                    </div>
+                    <div class="direction__level_row">
+                        <div class="direction__level_column-1">
+                            Индивидуальное занятие 1 мин
+                        </div>
+                        <div class="direction__level_column-2">
+                            300 грн
+                        </div>
+                    </div>
+                    <div class="direction__level_row">
+                        <div class="direction__level_column-1">
+                            Индивидуальное занятие 2 часа
+                        </div>
+                        <div class="direction__level_column-2">
+                            300 грн
+                        </div>
+                    </div>
+                </div>
+                <a href="#popup" id="btn2" class="popup__directions_button">Записаться на пробный урок</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="tabs.js"></script>
+    <script src="three.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
